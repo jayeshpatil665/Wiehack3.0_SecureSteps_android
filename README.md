@@ -26,7 +26,7 @@ their two contact on a app so they can able to reach the location.
 
 
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/52338026/119229909-a4f44780-bb37-11eb-867b-ed22c9cd11c6.jpeg" width="400" height="700">
-<img src="https://user-images.githubusercontent.com/52338026/119230079-509d9780-bb38-11eb-8340-b9205baac073.jpeg" width="400" height="700">
+	<img src="https://user-images.githubusercontent.com/52338026/119229909-a4f44780-bb37-11eb-867b-ed22c9cd11c6.jpeg" width="350" height="600">
+<img src="https://user-images.githubusercontent.com/52338026/119230079-509d9780-bb38-11eb-8340-b9205baac073.jpeg" width="350" height="600">
 </p>
 <br>

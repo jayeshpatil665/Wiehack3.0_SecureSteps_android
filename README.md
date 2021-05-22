@@ -1,5 +1,7 @@
 # Wiehack3.0_SecureSteps_android
-.. First commit (SplashScreen) ... Date 22/5/2021 : 06:30 PM
+. First commit (SplashScreen) ... Date 22/5/2021 :
+.. Second commit (Check Internet Connectivity)
+... Third commit (User/ parent_side Design) - 06:30 PM
 <br>
 ![](app/src/main/res/drawable/splash_logo.png)
 <br>

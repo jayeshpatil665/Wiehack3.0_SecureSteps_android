@@ -30,4 +30,6 @@ their two contact on a app so they can able to reach the location.
 <img src="https://user-images.githubusercontent.com/52338026/119230079-509d9780-bb38-11eb-8340-b9205baac073.jpeg" width="350" height="550">
 </p>
 <br>
-<img src="https://user-images.githubusercontent.com/52338026/119230225-ee916200-bb38-11eb-8e4a-32b2f2439696.PNG" height="400">
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/52338026/119230225-ee916200-bb38-11eb-8e4a-32b2f2439696.PNG" height="400">
+</p>

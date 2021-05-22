@@ -33,5 +33,3 @@ their two contact on a app so they can able to reach the location.
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/52338026/119230225-ee916200-bb38-11eb-8e4a-32b2f2439696.PNG" height="400">
 </p>
-<br>
-[TeamLocator_Abstract.pdf](https://github.com/jayeshpatil665/Wiehack3.0_SecureSteps_android/files/6526589/TeamLocator_Abstract.pdf)

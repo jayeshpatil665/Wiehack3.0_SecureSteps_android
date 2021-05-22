@@ -1,5 +1,5 @@
 # Wiehack3.0_SecureSteps_android
-= [Day 1] Date 22/5/2021 
+= [Day 1] Date 22/5/2021 <br>
 . First commit (SplashScreen) - 12:18 <br>
 .. Second commit (Check Internet Connectivity) - 1:41 <br>
 ... Third commit (User/ parent_side basic Design) - 06:30 PM

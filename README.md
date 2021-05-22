@@ -23,8 +23,4 @@ calamities. In a problematic situation if the user raises the save our souls ale
 the location, message alert will be directly transmitted to that person who the user added to 
 their two contact on a app so they can able to reach the location.
 <br>
-https://user-images.githubusercontent.com/52338026/119229712-e20c0a00-bb36-11eb-9b8e-4e08510d8c51.jpeg
-
-
-<br>
 

@@ -36,7 +36,7 @@
                 android:orientation="horizontal">
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+                    android:id="@+id/checkBoxSure"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -70,10 +70,11 @@
                 android:text="Location Details : " />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btn_inrrouble"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableRight="@drawable/ic_hand"
+                android:onClick="toInTroubleALeart"
                 android:text="In Trouble !" />
 
             <Button

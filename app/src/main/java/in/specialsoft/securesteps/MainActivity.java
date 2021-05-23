@@ -35,6 +35,8 @@ import in.specialsoft.securesteps.Api.ApiClient;
 import in.specialsoft.securesteps.Api.ApiInterface;
 import in.specialsoft.securesteps.InTroubleInOut.InTroubleIn;
 import in.specialsoft.securesteps.InTroubleInOut.InTroubleOut;
+import in.specialsoft.securesteps.MyStateInOut.MyStateIn;
+import in.specialsoft.securesteps.MyStateInOut.MyStateOut;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -130,6 +132,7 @@ public class MainActivity extends AppCompatActivity {
     public void toInTroubleALeart(View view) {
         if (checkBoxSure.isChecked()){
             sendMyData();
+            changeStatus("1");
         }
     }
 
@@ -182,6 +185,34 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toIamSafe(View view) {
+        changeStatus("0");
+    }
+
+    private void changeStatus(String state) {
+
+        ApiInterface api = ApiClient.getClient().create(ApiInterface.class);
+        MyStateIn i = new MyStateIn();
+        i.setId("1");
+        i.setIntrouble(state);
+
+        api.updateState(i).enqueue(new Callback<MyStateOut>() {
+            @Override
+            public void onResponse(Call<MyStateOut> call, Response<MyStateOut> response) {
+                if (response.body().getOutput().equals("Success"))
+                {
+                    Toast.makeText(MainActivity.this, "Notifyed ", Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    Toast.makeText(MainActivity.this, "Error in Notifying", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<MyStateOut> call, Throwable t) {
+
+            }
+        });
 
     }
 }

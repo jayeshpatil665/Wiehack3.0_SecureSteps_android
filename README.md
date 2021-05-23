@@ -3,7 +3,11 @@
 . First commit (SplashScreen) - 12:18 <br>
 .. Second commit (Check Internet Connectivity) - 1:41 <br>
 ... Third commit (User/ parent_side basic Design) - 06:30 PM
+<br><br>
+= [Day 2] Date 23/5/2021 <br>
+.... Forth Commit (getUserCurrentLocation) 10:47 AM
 <br>
+
 ![](app/src/main/res/drawable/splash_logo.png)
 <br>
 -- TeamLocator

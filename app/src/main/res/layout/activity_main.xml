@@ -111,7 +111,7 @@
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_moderator"
                 android:onClick="toHome"
-                android:text="Aleart nearest Station" />
+                android:text="nearest Station -(Parent View)" />
 
         </LinearLayout>
     </ScrollView>

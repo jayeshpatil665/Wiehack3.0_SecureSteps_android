@@ -92,7 +92,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:textSize="20sp"
-                android:text="Recieved Note : \nI am at 'this' Location...xyz , require help ...\n city : abc \n location xyz: \n DateTime : 5/22/2021 6:22  " />
+                android:text="Recieved Note :" />
 
         </LinearLayout>
     </ScrollView>

@@ -39,4 +39,6 @@ dependencies {
 
     //for Amination
     implementation 'com.airbnb.android:lottie:3.4.1'
+    //location
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
 }

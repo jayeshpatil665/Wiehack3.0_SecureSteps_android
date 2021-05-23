@@ -54,14 +54,20 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/editTextTextMultiLine"
+                android:id="@+id/et_message"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
                 android:text="I am at this Location" />
+
+            <TextView
+                android:id="@+id/tv_locDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Location Details : " />
 
             <Button
                 android:id="@+id/button"

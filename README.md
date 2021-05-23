@@ -8,7 +8,8 @@
 .... Forth Commit (getUserCurrentLocation) 10:47 AM <br>
 ..... Fifth Commit (user data Update -inTrouble) 12 :13 PM <br>
 ...... Sixth Commit (Get MsgInfo at Parent side) 2:14 PM <br>
-....... Seventh Commit (added IamSafe button 2:25 PM
+....... Seventh Commit (added IamSafe button 2:25 PM <br>
+........ Eighth Commit (DesignChanges) 2:33 PM
 <br>
 
 ![](app/src/main/res/drawable/splash_logo.png)

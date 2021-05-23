@@ -1,5 +1,8 @@
 # Wiehack3.0_SecureSteps_android
-.. First commit (SplashScreen) ... Date 22/5/2021 : 12:22 PM
+= [Day 1] Date 22/5/2021 <br>
+. First commit (SplashScreen) - 12:18 <br>
+.. Second commit (Check Internet Connectivity) - 1:41 <br>
+... Third commit (User/ parent_side basic Design) - 06:30 PM
 <br>
 ![](app/src/main/res/drawable/splash_logo.png)
 <br>
@@ -19,3 +22,13 @@ on. The app can also be used in case of an accident, harassment, robbery or any 
 calamities. In a problematic situation if the user raises the save our souls alert from the app, 
 the location, message alert will be directly transmitted to that person who the user added to 
 their two contact on a app so they can able to reach the location.
+<br>
+<br>
+
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/52338026/119229909-a4f44780-bb37-11eb-867b-ed22c9cd11c6.jpeg" width="350" height="550">
+<img src="https://user-images.githubusercontent.com/52338026/119230079-509d9780-bb38-11eb-8340-b9205baac073.jpeg" width="350" height="550">
+</p>
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/52338026/119230225-ee916200-bb38-11eb-8e4a-32b2f2439696.PNG" height="400">
+</p>

@@ -1,6 +1,8 @@
 package in.specialsoft.securesteps.Api;
 
 
+import in.specialsoft.securesteps.GetMyChildInOut.GetMyChildIn;
+import in.specialsoft.securesteps.GetMyChildInOut.GetMyChildOut;
 import in.specialsoft.securesteps.InTroubleInOut.InTroubleIn;
 import in.specialsoft.securesteps.InTroubleInOut.InTroubleOut;
 import retrofit2.Call;
@@ -12,4 +14,7 @@ public interface ApiInterface {
     @POST("user/inTrouble.php")
     Call<InTroubleOut> updateUser(@Body InTroubleIn i);
 
+    //check User/child API
+    @POST("user/getMyChild.php")
+    Call<GetMyChildOut> getTheUser(@Body GetMyChildIn i);
 }

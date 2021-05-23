@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SecureSteps</string>
+
+    <string name="channel_id">0</string>
+    <string name="channel_name">help alert</string>
+    <string name="channel_description">Aleart .. aleart ..!</string>
+
+    <string name="empty_response">{"user":[]}</string>
 </resources>

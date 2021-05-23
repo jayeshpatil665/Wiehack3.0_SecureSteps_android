@@ -9,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -171,5 +172,16 @@ public class MainActivity extends AppCompatActivity {
 
        date =  saveCurrentDate;
        time = saveCurrentTime;
+    }
+
+    public void toCall(View view) {
+        String uri = "tel: 8806048614";
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse(uri));
+        startActivity(intent);
+    }
+
+    public void toIamSafe(View view) {
+
     }
 }

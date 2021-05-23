@@ -69,33 +69,48 @@
                 android:layout_marginLeft="10dp"
                 android:text="Location Details : " />
 
-            <Button
-                android:id="@+id/btn_inrrouble"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableRight="@drawable/ic_hand"
-                android:onClick="toInTroubleALeart"
-                android:text="In Trouble !" />
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_inrrouble"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_hand"
+                    android:onClick="toInTroubleALeart"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:text="In Trouble !" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:drawableLeft="@drawable/ic_people"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/green"
+                    android:onClick="toIamSafe"
+                    android:text="I am Safe " />
+
+            </LinearLayout>
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_family"
-                android:onClick="toHome"
-                android:text="Notify Home" />
+                android:onClick="toCall"
+                android:text="Notify-call Home" />
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_people"
-                android:text="Get Nearby Helper" />
             <Button
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_moderator"
+                android:onClick="toHome"
                 android:text="Aleart nearest Station" />
 
         </LinearLayout>
